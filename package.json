@@ -1,0 +1,20 @@
+{
+  "private": true,
+  "engines": {
+    "node": ">=4.2.0"
+  },
+  "name": "hotelFront",
+  "version": "1.0.0",
+  "description": "Frontend del examen técnico para Almundo.com",
+  "repository": {},
+  "author": "Maximiliano Scalzotto",
+  "license": "MIT",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-webserver": "^0.9.1"
+  },
+  "scripts": {
+    "postinstall": "bower install --allow-root",
+    "start": "gulp serve"
+  }
+}

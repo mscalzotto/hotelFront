@@ -1,0 +1,39 @@
+<!doctype html>
+<html class="no-js">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Viajes, hoteles, vuelos, paquetes y más | almundo.com</title>
+        <meta name="description" content="Venta de vuelos y hoteles online. Paquetes Turísticos, Cruceros, Hoteles, Autos, Trenes y Promociones Aéreas. Viajes con el mejor precio y servicio."/>
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no"/>
+        <!-- endbower -->
+
+        <!-- main:css -->
+        <link rel="stylesheet" href="app/styles/standard.css">
+        <link rel="stylesheet" href="app/styles/header.css">
+        <link rel="stylesheet" href="app/styles/hotel-list.css">
+        <link rel="stylesheet" href="app/styles/left-sidebar.css">
+        <link rel="stylesheet" href="app/styles/footer.css">
+        <link rel="stylesheet" href="app/styles/font-awesome.css">
+        <link rel="stylesheet" href="app/styles/font-awesome-extension.css">
+        <link rel="stylesheet" href="app/styles/jquery-ui.css">
+    </head>
+
+    <body ng-app="hotel">
+
+  <ui-view></ui-view>
+
+        <script src="bower_components/angular/angular.min.js"></script>
+        <script src="bower_components/angular-ui-router/release/angular-ui-router.min.js"></script>
+        <script src="bower_components/jquery/dist/jquery.min.js"></script>
+        <script src="bower_components/jquery-ui/jquery-ui.min.js"></script>
+        <!-- endbower -->
+
+        <script src="app/app.js"></script>
+        <script src="app/config.js"></script>
+        <script src="app/scripts/controllers/home-ctrl.js"></script>
+        <script src="app/scripts/controllers/hotel-ctrl.js"></script>
+        <script src="app/scripts/services/hotel-service.js"></script>
+    </body>
+
+</html>

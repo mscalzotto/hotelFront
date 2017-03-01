@@ -1,0 +1,67 @@
+footer {
+  background-image: url('https://images.almundo.com/205/image/upload/q_auto:low/v1474403018/static/components/bg-footer.jpg');
+  color: #fff;
+  font-family: 'roboto_regular', sans-serif;
+  font-size: 13px;
+  min-width: 1344px;
+}
+
+footer a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+footer ul {
+  margin: 0;
+  padding: 0;
+}
+
+footer ul li {
+  padding: 5px 0;
+}
+
+footer .footer-wrapper {
+  margin: 0 auto;
+  max-width: 1344px;
+}
+
+footer .footer-wrapper .section {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 0 8px;
+  vertical-align: top;
+  width: 15%;
+}
+
+footer .footer-wrapper .section h3 {
+  border-bottom: 1px solid #fff;
+  font-size: 16px;
+  height: 30px;
+}
+
+footer .footer-wrapper .section .tripadvisor {
+  background-color: #fff;
+  margin-top: 5px;
+  padding: 5px 0 0 15px;
+}
+
+footer .footer-wrapper .contacto.section p {
+  margin: 0;
+}
+
+footer .footer-wrapper .sub-footer p,
+footer .footer-wrapper .sub-footer .fiscal-data {
+  display: inline-block;
+}
+
+footer .footer-wrapper .sub-footer p {
+  font-size: 10px;
+  margin-top: 20px;
+  width: 90%;
+}
+
+footer .footer-wrapper .sub-footer .fiscal-data {
+  margin-top: 20px;
+  vertical-align: top;
+  width: 3%;
+}
