@@ -77,8 +77,9 @@ nav .breadcrumb-list li {
 /* CLUSTERS */
 .hotel-container .hotels {
   display: inline-block;
+  margin-left: 7px;
   padding: 0;
-  width: 75%;
+  width: 74%;
 }
 
 .hotels .hotel-cluster {
@@ -134,7 +135,7 @@ nav .breadcrumb-list li {
 .hotels .hotel-cluster .hotel-data {
   display: inline-block;
   padding: 0 16px;
-  width: 38%;
+  width: 37%;
   vertical-align:top;
 }
 

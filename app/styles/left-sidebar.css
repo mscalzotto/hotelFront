@@ -4,9 +4,9 @@
 
 .hotel-container .left-sidebar-wrapper {
   display: inline-block;
-  margin: 11px 10px 15px 0;
-  min-width: 320px;
+  margin: 11px 0 15px 0;
   vertical-align: top;
+  width: 25%;
 }
 
 .hotel-container .left-sidebar-wrapper .filter-box {
@@ -60,6 +60,10 @@
 
 .hotel-container .left-sidebar-wrapper .filter-box ul li label span {
   vertical-align: top;
+}
+
+.hotel-container .left-sidebar-wrapper .map-wrapper img {
+  width: 100%;
 }
 
 .hotel-container .left-sidebar-wrapper .map-wrapper a {
