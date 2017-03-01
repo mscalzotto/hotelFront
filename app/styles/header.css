@@ -1,10 +1,7 @@
-
-
 /* HEADER */
 .header {
   background-image: url('../images/header-bg.jpg');
   background-size: cover;
-  min-width: 1344px;
 }
 .header .header-background {
   background: rgba(0,44,119,0.7);
